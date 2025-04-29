@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/*- Общие стили */
+
+body {
+        background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: white;
+   
+    margin: 20px;
+}
+
+p {
+    color: white ;
+}
+
+p + p {
+}
+
+ul {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+
+}
+
+img {
+   
+}
+
+.container {
+
+}
+
+.btn {
+    border: 5px rgb(255, 187, 0) solid;
+    background-color:rgb(255, 187, 0) ;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.btn:hover {
+  
+}
+
+.btn--small {
+ 
+}
+
+
+/*- Шапка */
+
+.header {
+ background-color: black;
+ padding: 20px;
+ text-align: center;
+     
+  
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+
+}
+
+.header__nav {
+align-items: center;
+}
+
+.header__list {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+    
+}
+
+.header__nav a {
+  
+}
+
+.header__nav a.active {
+  
+}
+
+.header__nav a:hover {
+  
+}
+
+/*- Приветственная секция */
+.welcome {
+  
+}
+
+.welcome__text {
+  
+}
+
+.welcome__subtitle {
+  
+}
+
+.welcome__title {
+  
+}
+
+.welcome__desc {
+  
+}
+
+/*- Список еды */
+.food-list {
+    overflow: hidden;
+}
+
+.food-list .container {
+  
+}
+
+.food-list__card {
+  
+}
+
+.food-list__img {
+    height: 200px;
+    
+    margin: 20px;
+}
+
+.food-list__text-wrapper {
+  
+}
+
+.food-list__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+.food-list__desc {
+  
+}
+
+/*- Order */
+.order {
+  
+}
+
+.order .container {
+  
+}
+
+.order__img {
+  
+}
+
+.order__text {
+  
+}
+
+.order__title {
+}
+
+.order__desc {
+  
+}
+
+.order__price {
+  
+}
+
+.order__price--old {
+  
+}
+
+.order__price + .order__price {
+  
+}
+
+.order .btn {
+  
+}
+
+.product {
+  
+}
+
+.product .container {
+  
+}
+
+.product__card {
+  
+}
+
+.product__card:nth-child(even) {
+  
+}
+
+.product__title {
+  
+}
+
+.product__desc {
+  
+}
+
+.product__price {
+  
+}
+
+.product__price + .product__price {
+  
+}
+
+.product__price--old {
+  
+}
+
+.product .btn {
+  
+}
+
+.card-queen {
+  
+}
+
+.card-hut {
+  
+}
+
+.card-king {
+  
+}
+
+.card-papa {
+  
+}
+
+/*- Feedback */
+.feedback {
+  
+}
+
+.feedback .container {
+  
+}
+
+.feedback__img {
+
+}
+
+.feedback__text {
+  
+}
+
+.feedback__text::before {
+  
+}
+
+.feedback__desc {
+  
+}
+
+.feedback__author {
+  
+}
+
+.feedback__subauthor {
+  
+}
+
+/*- Download */
+.download {
+  
+}
+
+.download .container {
+  
+}
+
+.download__title {
+  
+}
+
+
+/*- Footer */
+.footer {
+  
+}
+
+.footer a {
+  
+}
+
+.footer a:hover {
+  
+}
+
+.footer .footer__title {
+  
+}
+
+.footer .container {
+  
+}
+.footer__contacts {
+  
+}
+.footer__logo {
+  
+}
+.footer__link {
+  
+}
+.footer__link + .footer__link {
+  
+}
+.footer__link::before {
+  
+}
+
+.footer__link-mail::before {
+  
+}
+.footer__link-web::before {
+  
+}
+.footer__nav {
+}
+.footer__list {
+  
+}
+.footer__list-title {
+}
+.footer__inner-list {
+}
+.footer__list-item + .footer__list-item {
+  
+}
+
+
+.footer__socials {
+}
+.footer__socials-icons {
+}
+.footer__socials-link + .footer__socials-link {
+  
+}
